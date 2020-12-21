@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        
+    </head>  
+    <body style = "background-image:url(zodiac.jpg); background-size:cover; background-repeat:no-repeat; text-align:center;color:white ">
+        
+        <h1 style="text-align: center; color:red;">This is your Zodiac Sign</h1>  
+        <img id="sign" src=" "></img>        
+    </body>
+   
+    
+    <script style="text/javascript">
+         
+
+          
+        var a = prompt("Type the Month of your Birthday:","Type Here");
+        var b = prompt("Enter the Date of your Birthday:","Type Here");
+  
+
+        if( ( a == "December" && b >= 22  ) || (a == "January" && b <= 19))
+        {
+         document.write("<h2> Base on the Information that you gave us your Zodiac sign is Capricorn </h2>");
+			  	document.getElementById("sign").src="capricorn.jpg";
+          }
+      
+        
+        else if ( ( a == "January" && b >= 20  ) || (a == "February" && b <= 17))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Aquarius</h2>");
+            document.getElementById("sign").src="aquarius.jpg";
+          }
+        else if ( ( a == "February" && b >= 18  ) || (a == "March" && b <= 19))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Pisces</h2>");
+            document.getElementById("sign").src="pisces.jpg";
+       }
+           
+        else if ( ( a == "March" && b >= 20  ) || (a == "April" && b <= 19))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Aries</h2>");
+            document.getElementById("sign").src="aries.jpg";
+                    }
+        else if ( ( a == "April" && b >= 20  ) || (a == "May" && b <= 20))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Taurus</h2>");
+            document.getElementById("sign").src="taurus.jpg";
+              }
+        else if ( ( a == "May" && b >= 21  ) || (a == "June" && b <= 20))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Gemini</h2>");
+            document.getElementById("sign").src="gemini.jpg";
+                }
+        else if ( ( a == "June" && b >= 21 ) || (a == "July" && b <= 22))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Cancer</h2>");
+            document.getElementById("sign").src="cancer.jpg";
+                    }
+        else if ( ( a == "July" && b >= 23  ) || (a == "August" && b <= 22))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Leo</h2>");
+            document.getElementById("sign").src="leo.jpg";
+       }
+        else if ( ( a == "August" && b >= 23  ) || (a == "September" && b <= 22))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Virgo</h2>");
+            document.getElementById("sign").src="virgo.jpg";
+              }
+        else if ( ( a == "September" && b >= 23  ) || (a == "October" && b <= 22))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Libra</h2>");
+            document.getElementById("sign").src="libra.jpg";
+            }
+        else if ( ( a == "October" && b >= 23  ) || (a == "November" && b <= 21))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Scorpion</h2>");
+            document.getElementById("sign").src="scorpion.jpg";
+            }
+        else if ( ( a == "November" && b >= 22  ) || (a == "December" && b <= 21))
+        {
+            document.write("<h2>Base on the Information that you gave us your Zodiac sign is Saguitarius</h2>");
+            document.getElementById("sign").src="sagittarius.jpg";
+                 }
+        else
+            {
+            document.write("<h3> Opps! The month that you have enter was invalid make sure to use upper case letter for the first letter of the month for example (July) please try again</h3>")
+            }
+                    
+    </script>
+</html>
